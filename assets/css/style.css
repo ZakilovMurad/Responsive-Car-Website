@@ -275,7 +275,29 @@ video {
   letter-spacing: 7px;
   color: var(--white-color);
 }
- 
+
+
+.home__button{
+  position: absolute;
+  bottom: 5rem;
+  justify-self: center;
+  color: var(--white-color);
+  width: 94px;
+  height: 94px;
+  border: 2px solid whitesmoke;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  padding-top: 1rem;
+  z-index: 5;
+}
+.home__button span{
+  font-weight: var(--font-semi-bold);
+}
+.home__button i {
+  font-size:1.5rem;
+}
 
 
 /* Swiper class */
