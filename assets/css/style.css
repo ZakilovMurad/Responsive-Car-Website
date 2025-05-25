@@ -166,6 +166,12 @@ video {
   font-weight: var(--font-bold);
 }
 
+.nav__toggle,
+.nav__close{
+  display: inline-flex;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
 
 
 /* Navigation for mobile devices */
