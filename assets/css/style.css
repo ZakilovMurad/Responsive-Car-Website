@@ -186,9 +186,38 @@ video {
     box-shadow: 0 4px 16px hsla(0, 0%, 0%, .1);
     transition: top .4s;
   }
-  
 }
 
+
+.nav__list{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+
+.nav__link{
+  position: relative;
+  color: var(--black-color);
+  font-weight: var(--font-semi-bold);
+}
+.nav__link::after{
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: var(--black-color);
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: width .4s;
+}
+
+.nav__link:hover::after{
+  width: 100%;
+  background-color: rgb(245, 0, 0);
+
+
+}
 
 /* Show menu */
 
