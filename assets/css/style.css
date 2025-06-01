@@ -369,9 +369,17 @@ video {
   position: relative;
   width: 250px;
   height: 320px;
-  justify-self: center;
   box-shadow: var(--shadow-img);
   transform: skew(-12deg);
+  justify-self: center;
+  display: grid;
+  overflow: hidden;
+}
+.about__file{
+  max-width: initial;
+  height: 320px;
+  position: absolute;
+  justify-self: center;
 }
 /*=============== MODELS ===============*/
 
