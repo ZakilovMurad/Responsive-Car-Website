@@ -34,9 +34,9 @@ const swiperHome = new Swiper('.home__swiper', {
             return '<span class="' + className + '">' + String(index + 1).padStart(2, '0') + "</span>";
         },
     },
-    // autoplay: {
-    //     delay: 3000,
-    // }
+    autoplay: {
+        delay: 3000,
+    }
 })
 
 
